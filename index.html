@@ -18,7 +18,6 @@
       min-height: 100vh;
       justify-content: center;
       align-items: center;
-      overflow: hidden;
     }
 
     img.logo {
@@ -81,34 +80,11 @@
       font-size: 0.8em;
       color: #aaa;
     }
-
-    /* Animación de dinosaurios y cohetes */
-    .dino, .rocket {
-      position: absolute;
-      width: 80px;
-      animation: fly linear infinite;
-    }
-
-    .dino {
-      top: 60%;
-      animation-duration: 15s;
-    }
-
-    .rocket {
-      top: 20%;
-      animation-duration: 10s;
-    }
-
-    @keyframes fly {
-      0% { left: -100px; transform: rotate(0deg); }
-      50% { transform: rotate(10deg); }
-      100% { left: 100vw; transform: rotate(-10deg); }
-    }
   </style>
 </head>
 <body>
   <!-- Logo -->
-<img src="TU_LOGO.png" class="logo" alt="DINOPUMP Logo">
+  <img src="TU_LOGO.png" alt="DINOPUMP Logo" class="logo">
 
   <h1>DINOPUMP 🚀</h1>
   <p>¡Prepárate para el lanzamiento de <strong>$DINO</strong>!</p>
@@ -119,17 +95,8 @@
 
   <a href="https://t.me/+F_LzFKfKh4xjMjg5" class="button" target="_blank">Unirse al Grupo de Telegram</a>
 
-  <!-- Dinosaurios y cohetes animados -->
-<img src="dino.png" class="dino" alt="Dinosaurio">
-<img src="rocket.png" class="rocket" alt="Cohete">
-
   <footer>
     © 2025 DINOPUMP | $DINO - Todos los derechos reservados
   </footer>
 </body>
 </html>
-
-
-
-
-
